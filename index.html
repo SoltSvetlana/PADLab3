@@ -3,11 +3,7 @@
 <head>
 <title>Page Title</title>
 </head>
-<script>
-run_script.onclick = function() {
-alert('Нажали 1 кнопку');
-};
-</script>
+
 
 
 <style type="text/css">
@@ -15,7 +11,7 @@ button[name="run_script"] {
 border: none;
 border-radius: 7px;
 padding: 10px 25px;
-background: #008B8B;
+background: #FF0000;
 cursor: pointer;
 text-transform: uppercase;
 font-weight: bold;
@@ -29,8 +25,13 @@ background: #ff6600;
 <body>
 
 <h1>This is a Heading</h1>
-
-
+<p>This is a paragraph.</p>
+<button type="button" id="ruu1" name="run_script">Запустить</button>
 
 </body>
+<script>
+ruu1.onclick = function() {
+alert('Нажали 1 кнопку');
+};
+</script>
 </html>
